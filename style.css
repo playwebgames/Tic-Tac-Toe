@@ -10,7 +10,7 @@
     height: 100vh;
     padding-top: 1px;
     background-image: linear-gradient(to top left,
-          rgba(255, 0, 0, .15) 50%,
+          rgba(179, 98, 0, .15) 50%,
           rgba(0, 1, 48, .1) 30%,
           rgba(0, 0, 0, 0));
 }
