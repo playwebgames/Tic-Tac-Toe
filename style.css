@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Console';
+    user-select: none;
+}
+
+.background {
+    background-color: #000;
+    height: 100vh;
+    padding-top: 1px;
+    background-image: linear-gradient(to top left,
+          rgba(255, 0, 0, .15) 50%,
+          rgba(0, 1, 48, .1) 30%,
+          rgba(0, 0, 0, 0));
+}
+
+.title {
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+.display {
+    color: aqua;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 2px dashed white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.tile:hover{
+    border: 2px dashed #ddff00;
+    transition: 0.3s ease;
+
+}
+
+.playerX {
+    color: #00ff08;
+}
+
+.playerO {
+    color: #ff0000;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #498AFB;
+}
+
+#reset {
+    background-color: #FF3860;
+    transition: 0.2s ease;
+}
+#reset:hover{
+    font-size: 25px;
+    background-color: #001157;
+    color: #ffffff;
+}
+
+
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(11, 12, 38, 0.95);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: rgb(0, 199, 172) ;
+  display: block;
+  transition: 0.3s;
+  text-shadow: 2px 2px 2px #000;
+  transition: 0.3s ease;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: yellow; 
+  font-size: 46px;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 70px;
+  right: 135px;
+  font-size: 60px;
+  color: aqua;
+  transition: 0.2s ease;
+}
+
+.overlay .closebtn:hover{
+  color: red;
+  font-size: 79px;
+  top: 65px;
+  right: 125px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
