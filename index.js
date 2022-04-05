@@ -55,18 +55,22 @@ window.addEventListener('DOMContentLoaded', () => {
 
     if (!board.includes(''))
         announce(TIE);
+        
     }
 
     const announce = (type) => {
         switch(type){
             case PLAYERO_WON:
                 announcer.innerHTML = 'Player <span class="playerO">O</span> Won';
+                alert('Player (O) Won!! ' + ' Click on Reset Button to start the Game again');
                 break;
             case PLAYERX_WON:
                 announcer.innerHTML = 'Player <span class="playerX">X</span> Won';
+                alert('Player (X) Won!! ' + ' Click on Reset Button to start the Game again');
                 break;
             case TIE:
                 announcer.innerText = 'Tie';
+                alert('TIE !! ' + ' Click on Reset Button to reset the Game');
         }
         announcer.classList.remove('hide');
     };
