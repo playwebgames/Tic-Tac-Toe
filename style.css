@@ -96,7 +96,7 @@
 }
 #reset:hover{
     font-size: 25px;
-    background-color: #001157;
+    background-color: red;
     color: #ffffff;
 }
 
