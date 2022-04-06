@@ -55,7 +55,8 @@
     transition: 0.3s ease;
 }
 .tile:hover{
-    border: 2px dashed #ddff00;
+    border: 2px dashed magenta;
+    box-shadow: 0 4px 8px magenta;
     transition: 0.3s ease;
 
 }
@@ -98,6 +99,7 @@
     font-size: 25px;
     background-color: red;
     color: #ffffff;
+    box-shadow:  5px 5px black;
 }
 
 
