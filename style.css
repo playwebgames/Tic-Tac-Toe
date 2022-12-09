@@ -52,12 +52,10 @@
     align-items: center;
     font-size: 50px;
     cursor: pointer;
-    transition: 0.3s ease;
 }
 .tile:hover{
-    border: 2px dashed magenta;
-    box-shadow: 0 4px 8px magenta;
-    transition: 0.3s ease;
+    border: 2px dashed aqua;
+    box-shadow: 0 5px 5px aqua;
 
 }
 
@@ -92,14 +90,14 @@
 }
 
 #reset {
-    background-color: #FF3860;
+    background-color: #92522f;
     transition: 0.2s ease;
 }
 #reset:hover{
     font-size: 25px;
-    background-color: red;
-    color: #ffffff;
-    box-shadow:  5px 5px black;
+    background-color: #d78a60;
+    color: #000000;
+    box-shadow: 0 5px 5px #92522f;
 }
 
 
