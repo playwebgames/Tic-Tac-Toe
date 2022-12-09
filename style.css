@@ -55,7 +55,7 @@
 }
 .tile:hover{
     border: 2px dashed brown;
-    box-shadow: 0 5px 5px brown;
+    box-shadow: 0 0px 5px brown;
 
 }
 
