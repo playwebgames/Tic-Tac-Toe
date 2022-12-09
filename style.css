@@ -54,13 +54,13 @@
     cursor: pointer;
 }
 .tile:hover{
-    border: 2px dashed brown;
-    box-shadow: 0 0px 5px brown;
+    border: 2px dashed yellow;
+    box-shadow: 0 0px 7px yellow;
 
 }
 
 .playerX {
-    color: red;
+    color: yellow;
 }
 
 .playerO {
@@ -86,13 +86,13 @@
 }
 
 .restart {
-    background-color: #a34900;
+    background-color: white;
     color: black;
 }
 
 #reset {
-    background-color: #311b02;
-    color: #a34900;
+    background-color: white;
+    color: black;
     transition: 0.2s ease;
 }
 #reset:hover{
