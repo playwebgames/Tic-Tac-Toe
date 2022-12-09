@@ -18,13 +18,13 @@
 .title {
     color: orange;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 5%;
 }
 
 .display {
     color: aqua;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -54,17 +54,17 @@
     cursor: pointer;
 }
 .tile:hover{
-    border: 2px dashed aqua;
-    box-shadow: 0 5px 5px aqua;
+    border: 2px dashed brown;
+    box-shadow: 0 5px 5px brown;
 
 }
 
 .playerX {
-    color: #00ff08;
+    color: red;
 }
 
 .playerO {
-    color: #ff0000;
+    color: white;
 }
 
 .controls {
@@ -86,11 +86,13 @@
 }
 
 .restart {
-    background-color: #498AFB;
+    background-color: #a34900;
+    color: black;
 }
 
 #reset {
-    background-color: #92522f;
+    background-color: #311b02;
+    color: #a34900;
     transition: 0.2s ease;
 }
 #reset:hover{
